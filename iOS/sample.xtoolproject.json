@@ -1,0 +1,22 @@
+{
+  "name": "20mm preview square",
+  "preview": true,
+  "operations": [
+    {
+      "laser": "blue",
+      "powerPercent": 1,
+      "speedMMPerSecond": 200,
+      "paths": [
+        {
+          "closed": true,
+          "points": [
+            { "x": 47.5, "y": 47.5 },
+            { "x": 67.5, "y": 47.5 },
+            { "x": 67.5, "y": 67.5 },
+            { "x": 47.5, "y": 67.5 }
+          ]
+        }
+      ]
+    }
+  ]
+}

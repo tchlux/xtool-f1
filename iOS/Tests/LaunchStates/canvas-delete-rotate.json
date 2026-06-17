@@ -1,0 +1,60 @@
+{
+  "project": {
+    "name": "Canvas Delete Rotate",
+    "photos": [
+      {
+        "name": "Triangle",
+        "mode": "vector",
+        "settingsName": "Cut",
+        "settings": {
+          "placement": {
+            "xMM": 20,
+            "yMM": 28,
+            "widthMM": 52,
+            "heightMM": 34,
+            "rotationDegrees": 35
+          }
+        },
+        "vectorPaths": [
+          {
+            "closed": true,
+            "points": [
+              { "x": 0.12, "y": 0.18 },
+              { "x": 0.92, "y": 0.24 },
+              { "x": 0.24, "y": 0.82 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Reference Rectangle",
+        "mode": "vector",
+        "settingsName": "Cut",
+        "settings": {
+          "placement": {
+            "xMM": 72,
+            "yMM": 45,
+            "widthMM": 22,
+            "heightMM": 18,
+            "rotationDegrees": 0
+          }
+        },
+        "vectorPaths": [
+          {
+            "closed": true,
+            "points": [
+              { "x": 0, "y": 0 },
+              { "x": 1, "y": 0 },
+              { "x": 1, "y": 1 },
+              { "x": 0, "y": 1 }
+            ]
+          }
+        ]
+      }
+    ],
+    "gcodeMode": "asset",
+    "frameMode": "outline",
+    "frameSpeedMMPerSecond": 200
+  },
+  "selectedObjectNames": ["Triangle", "Reference Rectangle"]
+}

@@ -1,0 +1,70 @@
+{
+  "project": {
+    "name": "Text Editor Redesign",
+    "photos": [
+      {
+        "name": "Reference Rectangle",
+        "mode": "vector",
+        "settingsName": "Cut",
+        "settings": {
+          "placement": {
+            "xMM": 16,
+            "yMM": 18,
+            "widthMM": 82,
+            "heightMM": 72
+          }
+        },
+        "vectorPaths": [
+          {
+            "closed": true,
+            "points": [
+              { "x": 0, "y": 0 },
+              { "x": 1, "y": 0 },
+              { "x": 1, "y": 1 },
+              { "x": 0, "y": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Laser labels should wrap cleanly",
+        "mode": "text",
+        "settingsName": "Cut",
+        "settings": {
+          "placement": {
+            "xMM": 28,
+            "yMM": 36,
+            "widthMM": 58,
+            "heightMM": 34
+          }
+        },
+        "vectorSettings": {
+          "placement": {
+            "xMM": 28,
+            "yMM": 36,
+            "widthMM": 58,
+            "heightMM": 34
+          },
+          "speedMMPerSecond": 20,
+          "powerPercent": 10,
+          "laser": "blue"
+        },
+        "textSettings": {
+          "text": "Laser labels should wrap cleanly\nand keep their shape",
+          "fontFamily": "Helvetica",
+          "fontSize": 18,
+          "letterSpacing": 0,
+          "leading": 6,
+          "alignment": "center",
+          "curveX": 0,
+          "curveY": 0
+        }
+      }
+    ],
+    "gcodeMode": "asset",
+    "frameMode": "outline",
+    "frameSpeedMMPerSecond": 200
+  },
+  "selectedObjectNames": ["Laser labels should wrap cleanly"],
+  "editObjectName": "Laser labels should wrap cleanly"
+}

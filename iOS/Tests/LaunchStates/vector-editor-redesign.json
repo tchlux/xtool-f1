@@ -1,0 +1,76 @@
+{
+  "project": {
+    "name": "Vector Editor Redesign",
+    "photos": [
+      {
+        "name": "Draw",
+        "mode": "vector",
+        "settingsName": "Cut",
+        "settings": {
+          "placement": {
+            "xMM": 24,
+            "yMM": 24,
+            "widthMM": 66,
+            "heightMM": 66
+          }
+        },
+        "vectorSettings": {
+          "placement": {
+            "xMM": 24,
+            "yMM": 24,
+            "widthMM": 66,
+            "heightMM": 66
+          },
+          "speedMMPerSecond": 20,
+          "powerPercent": 10,
+          "laser": "blue"
+        },
+        "vectorDrawing": {
+          "rawSegments": [
+            [
+              { "x": 0.08, "y": 0.42 },
+              { "x": 0.20, "y": 0.22 },
+              { "x": 0.36, "y": 0.18 },
+              { "x": 0.50, "y": 0.34 },
+              { "x": 0.62, "y": 0.54 }
+            ],
+            [
+              { "x": 0.24, "y": 0.78 },
+              { "x": 0.44, "y": 0.64 },
+              { "x": 0.66, "y": 0.70 },
+              { "x": 0.86, "y": 0.56 }
+            ]
+          ],
+          "smoothness": 0,
+          "nodes": []
+        },
+        "vectorPaths": [
+          {
+            "closed": false,
+            "points": [
+              { "x": 0.08, "y": 0.42 },
+              { "x": 0.20, "y": 0.22 },
+              { "x": 0.36, "y": 0.18 },
+              { "x": 0.50, "y": 0.34 },
+              { "x": 0.62, "y": 0.54 }
+            ]
+          },
+          {
+            "closed": false,
+            "points": [
+              { "x": 0.24, "y": 0.78 },
+              { "x": 0.44, "y": 0.64 },
+              { "x": 0.66, "y": 0.70 },
+              { "x": 0.86, "y": 0.56 }
+            ]
+          }
+        ]
+      }
+    ],
+    "gcodeMode": "asset",
+    "frameMode": "outline",
+    "frameSpeedMMPerSecond": 200
+  },
+  "selectedObjectNames": ["Draw"],
+  "editObjectName": "Draw"
+}
